@@ -23,7 +23,7 @@ body {
 
 .header {
   height: var(--tamanho-header);
-  border-bottom: 2px solid #32b9cd;
+  border-bottom: 2px solid #e3b062;
 }
 
 .header .container {
@@ -42,7 +42,7 @@ body {
 }
 
 .navbar {
-  width: 20vw;
+  width: 27vw;
   font-size: 130%;
   display: flex;
   align-items: center;
@@ -67,20 +67,25 @@ body {
   height: var(--tamanho-banner);
   color: black;
   background-color: white;
+  height: 100vh;
 }
 
 .banner .container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
 .banner .container p {
-  width: 50%;
+  width: 31vw;
   margin: 0;
+  margin-left: 2vw;
   padding: 0;
   font-size: 36px;
 }
+
 
 .banner .container span {
   font-weight: 800;
