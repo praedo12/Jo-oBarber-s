@@ -94,16 +94,29 @@ body {
 /* MISSÃO VISÃO VALORES */
 
 .social {
-  background-color: #e5e5e5;
+  background-color: #e9e4e4;
   display: flex;
+  flex-direction: column;
 }
-
+.social h1{
+  align-self: center;
+  font-size: 3.5vw;
+}
 .social .container {
   justify-content: center;
+  align-items: center;
 }
 
 .box img {
-  width: 170px;
+  width: 15vw;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+.box img:hover{
+  cursor: pointer;
+  width: 17vw;
+  border-radius: 100%;
+  border: #e3b062 solid 5px;
 }
 
 .social .container .boxes {
@@ -121,12 +134,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 40vh;
 }
 
 /* FOOTER */
 
 .footer {
-  background-color: #32b9cd;
+  background-color: #e3b062;
   height: 150px;
   color: #fff;
   display: flex;
