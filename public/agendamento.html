@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="icon" href="./assets/imgs/JoaoLogo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/others.css">
 </head>
 
-<body>
+<body onload="verificacao()">
     <div class="header">
       <div class="container">
         
@@ -25,10 +26,10 @@
             <li >
               <a href="index.html">Início</a>
             </li>
-            <li>
+            <li class="agora">
               <a href="servicos.html">Serviços</a>
             </li>
-            <li class="agora">
+            <li >
               <a href="contato.html">Contato</a>
             </li>
             <li>
@@ -39,7 +40,13 @@
       </div>
     </div>
     <div class="pagina">
-
+        <div class="horarios">
+            <div>
+                <h1>Horários Dísponíveis: </h1>
+            </div>
+            <div id="verificacaoCliente">
+            </div>
+        </div>
     </div>
     <footer>
       <div class="container">
@@ -47,7 +54,22 @@
         Telefone: (11) 99999-9999 
         Instagram: #</h4>
       </div>
-    <footer>
+    </footer>
 </body>
 
 </html>
+<script>
+    function verificacao(){
+        var email = sessionStorage.EMAIL_USUARIO;
+        console.log(email);
+        console.log(typeof !email)
+        if(!email){
+            console.log('caiu aqui');
+            document.getElementById('verificacaoCliente').innerHTML = `<p>Ops sem email, faça o login e retorne para página</p>`;
+        }
+
+    }
+
+
+
+</script>

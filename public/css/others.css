@@ -29,7 +29,7 @@
 
 .caixa{
     border-radius: 25%;
-    background-color: rgb(225, 236, 123);
+    background-color: rgb(222, 228, 167);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@
 }
 .caixa:hover{
     border-radius: 25%;
-    background-color: rgb(225, 236, 123);
+    background-color: rgb(222, 228, 167);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,4 +70,16 @@
     border-radius: 100%;
 }
 
+.caixas a{
+    text-decoration: none;
+    color: rgb(63, 63, 241);
+}
+
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
 
