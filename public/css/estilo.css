@@ -20,6 +20,11 @@ body {
   width: 80%;
   margin: auto;
 }
+.container a{
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
 
 .header {
   height: var(--tamanho-header);
@@ -139,21 +144,9 @@ body {
 
 /* FOOTER */
 
-.footer {
-  background-color: #e3b062;
-  height: 150px;
-  color: #fff;
+footer{
+  background-color: #f7f4f4;
   display: flex;
-  font-size: 15px;
-}
-
-.footer .container {
-  justify-content: center;
-  text-align: center;
-}
-
-.footer .container .version {
-  font-size: 12px;
 }
 
 /* LOGIN */
