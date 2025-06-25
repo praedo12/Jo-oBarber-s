@@ -13,7 +13,6 @@
     justify-self: flex-start;
 }
 .servicos{
-    background-color: rgb(225, 236, 123);
     height: 70vh;
     display: flex;
     width: 100%;
@@ -21,25 +20,54 @@
     align-items: start;
 }
 .caixas{
-    width: 30vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-.servicos.caixas{
-    display: flex;
-    justify-content: space-between;
-}
+
 .caixa{
+    border-radius: 25%;
+    background-color: rgb(225, 236, 123);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30vw;
+    height: 45vh;
     margin: 1vw;
 }
+.caixa:hover{
+    border-radius: 25%;
+    background-color: rgb(225, 236, 123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 45vh;
+    margin: 1vw;
+    color: rgb(87, 111, 189);
+}
 .caixa img{
+    border: solid 5px rgb(188, 194, 133);
+    margin-top: 3vh;
     width: 15vw;
     border-radius: 100%;
+    transition: all linear 0.15s;
 }
+.caixa img:hover{
+    cursor: pointer;
+    border: 5px rgb(152, 156, 111) solid;
+    margin-top: 3vh;
+    width: 15.3vw;
+    border-radius: 100%;
+}
+.caixa img:active{
+    cursor: pointer;
+    border: 5px rgb(95, 99, 56) solid;
+    margin-top: 3vh;
+    width: 14.7vw;
+    border-radius: 100%;
+}
+
 
