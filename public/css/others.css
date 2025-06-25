@@ -1,0 +1,45 @@
+
+
+.pagina{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloPag1{
+    justify-self: flex-start;
+}
+.servicos{
+    background-color: rgb(225, 236, 123);
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+}
+.caixas{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.servicos.caixas{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin: 1vw;
+}
+.caixa img{
+    width: 15vw;
+    border-radius: 100%;
+}
+
