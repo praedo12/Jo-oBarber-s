@@ -27,8 +27,12 @@ body {
 }
 
 .header {
-  height: var(--tamanho-header);
+  width: 100vw;
   border-bottom: 2px solid #e3b062;
+  position: fixed;
+  top: 0;
+  margin: auto;
+  background-color: white;
 }
 
 .header .container {
