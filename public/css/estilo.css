@@ -89,20 +89,25 @@ body {
   height: 100%;
 }
 #imagemLogo1pag{
-  width: 35vw;
+  width: 3vw;
 }
-
+.navbarEsquerda{
+  display: flex;
+  align-items: center;
+}
 .banner .container p {
-  width: 31vw;
+  width: 73vw;
   margin: 0;
   margin-left: 3vw;
   padding: 0;
   font-size: 3vw;
+  font-weight: 100;
 }
 
 
 .banner .container span {
-  font-weight: 800;
+  font-weight: 100;
+  color: #e3b062;
 }
 
 /* MISSÃO VISÃO VALORES */
