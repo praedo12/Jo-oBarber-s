@@ -393,6 +393,20 @@ input {
   animation-iteration-count: infinite;
 }
 
+.contato{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
 @keyframes bell {
   0%   {transform: rotate(25deg)}
   25%  {transform: rotate(-25deg)}
